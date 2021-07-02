@@ -13,7 +13,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
              <h5>${user.email}</h5>
              </div> 
              <br />
-             <a class="button" target="_blank" href="https://jsonplaceholder.typicode.com/users/${user.id}/posts">${"Get User’s Posts"}</a>
+             <a class="button" target="_blank" href="posts_per_user.html?name=${user.name}&user_id=${user.id}">${"Get User’s Posts"}</a>
             </li>
             `
     })
